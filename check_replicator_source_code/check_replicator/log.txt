@@ -1,0 +1,189 @@
+Log checker start...
+Parsing the settings file: C:\_replicator_checker\log_checker.ini
+pathToLog: \\\\172.16.225.15\\Log\\
+filesToCheck.size: 55
+filesToIgnore.size: 1
+linesToIgnore.size: 2
+filesTimeUpdateToIgnore.size: 1
+maskForFileToCheck.size: 4
+statLogCount: 54
+statLogUpdateTime: 30
+timeForCheckingLines: 60
+timeCorrection: 60
+timeForNonUpdatedFile: 60
+errorCodes.size: 12
+emailAddressesToNotify.size: 3
+smtpSettings.size: 2
+Settings are loaded correctly
+Current day: 15-05-12
+Current time: 15:51:45
+Folder for checking exists: \\172.16.225.15\Log\15-05-12
+All files for checking exists
+checkDirectoryForFilesQuantity skipping the file: wl_client_004_15-05-12.txt
+There are no extra files in folder
+checkFileUpdateTime skipping the file: scr_Oms.txt
+checkFileUpdateTime skipping the file: wl_client_004_15-05-12.txt
+All files are successfully updated less than 60 minutes ago
+Checking for the error in the file: repl_01_mdm_osnovnoy_15-05-12.txt
+Checking for the error in the file: repl_01_mdm_protokoli_15-05-12.txt
+Checking for the error in the file: repl_01_mdm_sprav_15-05-12.txt
+Checking for the error in the file: repl_01_mdm_transit_15-05-12.txt
+Checking for the error in the file: repl_03_spb_osnovnoy_15-05-12.txt
+Checking for the error in the file: repl_03_spb_protokoli_15-05-12.txt
+Checking for the error in the file: repl_03_spb_sprav_15-05-12.txt
+Checking for the error in the file: repl_05_sret_osnovnoy_15-05-12.txt
+Checking for the error in the file: repl_05_sret_protokoli_15-05-12.txt
+Checking for the error in the file: repl_05_sret_sprav_15-05-12.txt
+Checking for the error in the file: repl_05_sret_transit_15-05-12.txt
+Checking for the error in the file: repl_06_pnd_15-05-12.txt
+Checking for the error in the file: repl_06_pnd_sprav_15-05-12.txt
+Checking for the error in the file: repl_06_pnd_transit_15-05-12.txt
+Checking for the error in the file: repl_07_smp_15-05-12.txt
+Checking for the error in the file: repl_07_smp_sprav_15-05-12.txt
+Checking for the error in the file: repl_07_smp_transit_15-05-12.txt
+Checking for the error in the file: repl_08_krasn_15-05-12.txt
+Checking for the error in the file: repl_08_krasn_SPRAV_15-05-12.txt
+Checking for the error in the file: repl_09_ufa_15-05-12.txt
+12.05.2015 14:30:21 System error, (OS Code 32):
+Checking for the error in the file: repl_09_ufa_sprav_15-05-12.txt
+Checking for the error in the file: repl_10_kazan_15-05-12.txt
+Checking for the error in the file: repl_10_Kazan_SPRAV_15-05-12.txt
+Checking for the error in the file: repl_11_novsib_15-05-12.txt
+Checking for the error in the file: repl_11_novsib_sprav_15-05-12.txt
+Checking for the error in the file: repl_12_mssu_osnovnoy_15-05-12.txt
+Checking for the error in the file: repl_12_mssu_protokoli_15-05-12.txt
+Checking for the error in the file: repl_12_mssu_sprav_15-05-12.txt
+Checking for the error in the file: repl_12_mssu_transit_15-05-12.txt
+Checking for the error in the file: repl_13_krasn_sk15-05-12.txt
+Checking for the error in the file: repl_13_sprav_15-05-12.txt
+Checking for the error in the file: repl_14_n_novg15-05-12.txt
+Checking for the error in the file: repl_14_n_novg_sprav_15-05-12.txt
+Checking for the error in the file: repl_97_call_15-05-12.txt
+Checking for the error in the file: repl_97_call_sprav_15-05-12.txt
+Checking for the error in the file: repl_97_call_transit_15-05-12.txt
+Checking for the error in the file: repl_moscow_lab_15-05-12.txt
+Checking for the error in the file: repl_moscow_print_15-05-12.txt
+Checking for the error in the file: repl_reg_lab_15-05-12.txt
+Checking for the error in the file: repl_reg_print_15-05-12.txt
+Checking for the error in the file: repl_reg_transit_15-05-12.txt
+Checking for the error in the file: repl_web_15-05-12.txt
+Checking for the error in the file: scr_Oms.txt
+Checking for the error in the file: scr_regular_CHEA.txt
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 13:52:14 Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 1
+Invalid token
+GDS Code: 335544569 - SQL Code: -104 - Error Code: 249
+12.05.2015 13:53:50 Execute statement error at isc_dsql_execute2 :
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 13:54:06 Execute statement error at isc_dsql_prepare :
+335544569 : Dynamic SQL Error
+335544436 : SQL error code = -104
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 13:54:26 Execute statement error at isc_dsql_prepare :
+335544569 : Dynamic SQL Error
+335544436 : SQL error code = -104
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 13:59:45 Execute statement error at isc_dsql_execute2 :
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 13:59:58 Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 1
+Invalid token
+GDS Code: 335544569 - SQL Code: -104 - Error Code: 249
+12.05.2015 14:01:41 Execute statement error at isc_dsql_execute2 :
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 14:01:57 Execute statement error at isc_dsql_prepare :
+335544569 : Dynamic SQL Error
+335544436 : SQL error code = -104
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 14:02:15 Execute statement error at isc_dsql_prepare :
+335544569 : Dynamic SQL Error
+335544436 : SQL error code = -104
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 14:19:43 Execute statement error at isc_dsql_execute2 :
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 14:19:56 Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 1
+Invalid token
+GDS Code: 335544569 - SQL Code: -104 - Error Code: 249
+12.05.2015 14:21:42 Execute statement error at isc_dsql_execute2 :
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 14:22:36 Execute statement error at isc_dsql_prepare :
+335544569 : Dynamic SQL Error
+335544436 : SQL error code = -104
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 14:23:04 Execute statement error at isc_dsql_prepare :
+335544569 : Dynamic SQL Error
+335544436 : SQL error code = -104
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 14:40:36 Execute statement error at isc_dsql_execute2 :
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 14:40:49 Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 1
+Invalid token
+GDS Code: 335544569 - SQL Code: -104 - Error Code: 249
+12.05.2015 14:42:52 Execute statement error at isc_dsql_execute2 :
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 14:43:47 Execute statement error at isc_dsql_prepare :
+335544569 : Dynamic SQL Error
+335544436 : SQL error code = -104
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+12.05.2015 14:44:15 Execute statement error at isc_dsql_prepare :
+335544569 : Dynamic SQL Error
+335544436 : SQL error code = -104
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+GDS Code: 335544926 - SQL Code: -901 - Error Code: 606
+Checking for the error in the file: stat_15-05-12.log
+Checking for the error in the file: wl_client_001_15-05-12.txt
+Checking for the error in the file: wl_client_003_15-05-12.txt
+checkFileForError skipping the file: wl_client_004_15-05-12.txt
+Checking for the error in the file: wl_client_005_15-05-12.txt
+Checking for the error in the file: wl_client_008_15-05-12.txt
+Checking for the error in the file: wl_client_009_15-05-12.txt
+Checking for the error in the file: wl_client_010_15-05-12.txt
+Checking for the error in the file: wl_client_011_15-05-12.txt
+Checking for the error in the file: wl_client_012_15-05-12.txt
+Checking for the error in the file: wl_client_013_15-05-12.txt
+Checking for the error in the file: wl_client_014_15-05-12.txt
+Trying to send an email
+host: 172.16.6.6
+from: replicator_checker@nnkk.budzdorov.su
+nn-admin@nnkk.budzdorov.su
+gusev@7828882.ru
+savostyanov@7828882.ru
+The email has successfully sent

@@ -1,0 +1,1 @@
+java -jar check_replicator.jar

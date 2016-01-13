@@ -1,0 +1,102 @@
+Log checker start...
+Parsing the settings file: log_checker.ini
+pathToLog: \\\\172.16.225.15\\Log\\
+filesToCheck.size: 55
+filesToIgnore.size: 0
+linesToIgnore.size: 0
+filesTimeUpdateToIgnore.size: 1
+maskForFileToCheck.size: 4
+statLogCount: 53
+statLogUpdateTime: 30
+timeForCheckingLines: 60
+timeCorrection: 60
+timeForNonUpdatedFile: 60
+allowableErrorsInOneScope: 5
+errorCodes.size: 12
+emailAddressesToNotify.size: 4
+smtpSettings.size: 4
+Settings are loaded correctly
+Current day: 15-10-06
+Current time: 15:00:02
+Folder for checking exists: \\172.16.225.15\Log\15-10-06
+All files for checking exists
+WARNING! The file: repl_15_yekuk_15-10-06.txt exist in folder but doesn't present in the settings file
+WARNING! The file: repl_15_yekuk_sprav_15-10-06.txt exist in folder but doesn't present in the settings file
+WARNING! The file: repl_16_mssnk_15-10-06.txt exist in folder but doesn't present in the settings file
+WARNING! The file: repl_16_mssnk_sprav_15-10-06.txt exist in folder but doesn't present in the settings file
+WARNING! The file: wl_client_016_15-10-06.txt exist in folder but doesn't present in the settings file
+checkFileUpdateTime skipping the file: scr_Oms.txt
+All files are successfully updated less than 60 minutes ago
+Checking for the error in the file: repl_01_mdm_osnovnoy_15-10-06.txt
+Checking for the error in the file: repl_01_mdm_protokoli_15-10-06.txt
+Checking for the error in the file: repl_01_mdm_sprav_15-10-06.txt
+Checking for the error in the file: repl_01_mdm_transit_15-10-06.txt
+Checking for the error in the file: repl_03_spb_osnovnoy_15-10-06.txt
+Checking for the error in the file: repl_03_spb_protokoli_15-10-06.txt
+Checking for the error in the file: repl_03_spb_sprav_15-10-06.txt
+Checking for the error in the file: repl_05_sret_osnovnoy_15-10-06.txt
+Checking for the error in the file: repl_05_sret_protokoli_15-10-06.txt
+Checking for the error in the file: repl_05_sret_sprav_15-10-06.txt
+Checking for the error in the file: repl_05_sret_transit_15-10-06.txt
+Checking for the error in the file: repl_06_pnd_15-10-06.txt
+Checking for the error in the file: repl_06_pnd_sprav_15-10-06.txt
+Checking for the error in the file: repl_06_pnd_transit_15-10-06.txt
+Checking for the error in the file: repl_07_smp_15-10-06.txt
+Checking for the error in the file: repl_07_smp_sprav_15-10-06.txt
+Checking for the error in the file: repl_07_smp_transit_15-10-06.txt
+Checking for the error in the file: repl_08_krasn_15-10-06.txt
+Checking for the error in the file: repl_08_krasn_sprav_15-10-06.txt
+Checking for the error in the file: repl_09_ufa_15-10-06.txt
+Checking for the error in the file: repl_09_ufa_sprav_15-10-06.txt
+Checking for the error in the file: repl_10_kazan_15-10-06.txt
+Checking for the error in the file: repl_10_Kazan_SPRAV_15-10-06.txt
+Checking for the error in the file: repl_11_novsib_15-10-06.txt
+Checking for the error in the file: repl_11_novsib_sprav_15-10-06.txt
+Checking for the error in the file: repl_12_mssu_osnovnoy_15-10-06.txt
+Checking for the error in the file: repl_12_mssu_protokoli_15-10-06.txt
+Checking for the error in the file: repl_12_mssu_sprav_15-10-06.txt
+Checking for the error in the file: repl_12_mssu_transit_15-10-06.txt
+Checking for the error in the file: repl_13_krasn_sk15-10-06.txt
+Checking for the error in the file: repl_13_sprav_15-10-06.txt
+Checking for the error in the file: repl_14_n_novg15-10-06.txt
+Checking for the error in the file: repl_14_n_novg_sprav_15-10-06.txt
+Checking for the error in the file: repl_15_yekuk_15-10-06.txt
+Checking for the error in the file: repl_15_yekuk_sprav_15-10-06.txt
+Checking for the error in the file: repl_16_mssnk_15-10-06.txt
+Checking for the error in the file: repl_16_mssnk_sprav_15-10-06.txt
+Checking for the error in the file: repl_97_call_15-10-06.txt
+Checking for the error in the file: repl_97_call_sprav_15-10-06.txt
+Checking for the error in the file: repl_97_call_transit_15-10-06.txt
+Checking for the error in the file: repl_moscow_lab_15-10-06.txt
+Checking for the error in the file: repl_moscow_print_15-10-06.txt
+Checking for the error in the file: repl_reg_lab_15-10-06.txt
+Checking for the error in the file: repl_reg_print_15-10-06.txt
+Checking for the error in the file: repl_reg_transit_15-10-06.txt
+Checking for the error in the file: repl_web_15-10-06.txt
+Checking for the error in the file: scr_Oms.txt
+Checking for the error in the file: scr_regular_CHEA.txt
+Checking for the error in the file: stat_15-10-06.log
+WARNING! Tasks count in file: stat_15-10-06.log (58) doesn't equal the counter in the settings file: 53
+WARNING! Tasks count in file: stat_15-10-06.log (58) doesn't equal the counter in the settings file: 53
+Checking for the error in the file: wl_client_001_15-10-06.txt
+Checking for the error in the file: wl_client_003_15-10-06.txt
+Checking for the error in the file: wl_client_005_15-10-06.txt
+Checking for the error in the file: wl_client_008_15-10-06.txt
+Checking for the error in the file: wl_client_009_15-10-06.txt
+Checking for the error in the file: wl_client_010_15-10-06.txt
+Checking for the error in the file: wl_client_011_15-10-06.txt
+Checking for the error in the file: wl_client_012_15-10-06.txt
+Checking for the error in the file: wl_client_013_15-10-06.txt
+Checking for the error in the file: wl_client_014_15-10-06.txt
+Checking for the error in the file: wl_client_016_15-10-06.txt
+There are no files that contain any error from the list
+Trying to send an email
+host: 172.16.6.6
+from: nn-admin@nnkk.budzdorov.su
+pass: Password666
+port: 25
+nn-admin@nnkk.budzdorov.su
+gusev@7828882.ru
+savostyanov@7828882.ru
+s.a.starodymov@7828882.ru
+The email has successfully sent

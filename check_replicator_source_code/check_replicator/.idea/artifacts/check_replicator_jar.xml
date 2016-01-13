@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="check_replicator:jar">
+    <output-path>C:/123</output-path>
+    <root id="root">
+      <element id="archive" name="check_replicator.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="C:/123/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="check_replicator" />
+      </element>
+    </root>
+  </artifact>
+</component>
